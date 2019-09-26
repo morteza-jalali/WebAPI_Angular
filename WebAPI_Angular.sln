@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI_Angular", "WebAPI_Angular\WebAPI_Angular.csproj", "{0DC916B0-77FF-48FB-BCC8-FFBD645BAF68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AngularPrj", "AngularPrj", "{66F30B64-0494-4E64-B6B0-40AE49B54A06}"
+	ProjectSection(SolutionItems) = preProject
+		AngularPrj\.editorconfig = AngularPrj\.editorconfig
+		AngularPrj\.gitignore = AngularPrj\.gitignore
+		AngularPrj\angular.json = AngularPrj\angular.json
+		AngularPrj\browserslist = AngularPrj\browserslist
+		AngularPrj\karma.conf.js = AngularPrj\karma.conf.js
+		AngularPrj\package-lock.json = AngularPrj\package-lock.json
+		AngularPrj\package.json = AngularPrj\package.json
+		AngularPrj\README.md = AngularPrj\README.md
+		AngularPrj\tsconfig.app.json = AngularPrj\tsconfig.app.json
+		AngularPrj\tsconfig.json = AngularPrj\tsconfig.json
+		AngularPrj\tsconfig.spec.json = AngularPrj\tsconfig.spec.json
+		AngularPrj\tslint.json = AngularPrj\tslint.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{C61AD679-5788-46EC-A1CA-CA277C3E4EFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DC916B0-77FF-48FB-BCC8-FFBD645BAF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC916B0-77FF-48FB-BCC8-FFBD645BAF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC916B0-77FF-48FB-BCC8-FFBD645BAF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC916B0-77FF-48FB-BCC8-FFBD645BAF68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61AD679-5788-46EC-A1CA-CA277C3E4EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61AD679-5788-46EC-A1CA-CA277C3E4EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61AD679-5788-46EC-A1CA-CA277C3E4EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C61AD679-5788-46EC-A1CA-CA277C3E4EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {172A6B49-713D-42C1-BE4B-2DC202CD48DB}
+	EndGlobalSection
+EndGlobal

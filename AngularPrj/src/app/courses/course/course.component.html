@@ -1,0 +1,30 @@
+<form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off" >
+  <input type="hidden" name="ID" #ID="ngModel" [(ngModel)]="service.formData.ID">
+  <div class="form-group">
+    <label>Course Name</label>
+    <input name="Name" #Name="ngModel" [(ngModel)]="service.formData.Name" class="form-control" required>
+    <div class="validation-error" *ngIf="Name.invalid && Name.touched">This field is required.</div>
+  </div>
+
+  <div class="form-group">
+    <label>Course Start Date</label><br />
+	 <!-- <input ngb-datepicker name="StartDate2" #Name="ngModel" [(ngModel)]="service.formData.StartDate" (navigate)="date = $event.next"> -->
+  <input name="StartDate" #StartDate="ngModel" [(ngModel)]="service.formData.StartDate" class="form-control" required>
+ 
+       <div class="validation-error" *ngIf="StartDate.invalid && StartDate.touched">This field is required.</div> 
+  </div>
+
+  <div class="form-group">
+    <label>Course End Date</label><br />
+	<!-- <ngb-datepicker name="EndDate" #Name="ngModel" [(ngModel)]="service.formData.EndDate" (navigate)="date = $event.next"></ngb-datepicker> -->
+ <input name="EndDate" #EndDate="ngModel" [(ngModel)]="service.formData.EndDate" class="form-control" required>
+     <div class="validation-error" *ngIf="EndDate.invalid && EndDate.touched">This field is required.</div> 
+  </div>
+
+
+	
+  <div class="form-group">
+    <button type="submit" [disabled]="form.invalid" class="btn btn-lg btn-block" >SUBMIT</button>
+  </div>
+
+</form>
